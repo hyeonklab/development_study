@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8463060F1DF837EB004198E2 /* record_view_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463060D1DF837EB004198E2 /* record_view_controller.m */; };
+		846306101DF837EB004198E2 /* record_view_controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8463060E1DF837EB004198E2 /* record_view_controller.xib */; };
+		846F5F281DFFDA130017328F /* meter_gauge_view.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F5F271DFFDA130017328F /* meter_gauge_view.m */; };
+		848D1DD31E0ED04300904D76 /* audio_recorder_info.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D1DD11E0ED04300904D76 /* audio_recorder_info.m */; };
+		848D1DD41E0ED04300904D76 /* audio_recorder_info.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848D1DD21E0ED04300904D76 /* audio_recorder_info.xib */; };
+		848D1DD91E0ED7FD00904D76 /* gauge.png in Resources */ = {isa = PBXBuildFile; fileRef = 848D1DD61E0ED7FD00904D76 /* gauge.png */; };
+		848D1DDA1E0ED7FD00904D76 /* record_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 848D1DD71E0ED7FD00904D76 /* record_off.png */; };
+		848D1DDB1E0ED7FD00904D76 /* record_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 848D1DD81E0ED7FD00904D76 /* record_on.png */; };
+		849D5FC71DF5C21A00C5124B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5FC61DF5C21A00C5124B /* main.m */; };
+		849D5FCA1DF5C21A00C5124B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5FC91DF5C21A00C5124B /* AppDelegate.m */; };
+		849D5FCD1DF5C21A00C5124B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5FCC1DF5C21A00C5124B /* ViewController.m */; };
+		849D5FD01DF5C21A00C5124B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D5FCE1DF5C21A00C5124B /* Main.storyboard */; };
+		849D5FD21DF5C21A00C5124B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849D5FD11DF5C21A00C5124B /* Assets.xcassets */; };
+		849D5FD51DF5C21A00C5124B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D5FD31DF5C21A00C5124B /* LaunchScreen.storyboard */; };
+		849D5FDE1DF5C2A700C5124B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D5FDD1DF5C2A700C5124B /* AVFoundation.framework */; };
+		849D5FE01DF5C2B000C5124B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D5FDF1DF5C2B000C5124B /* MessageUI.framework */; };
+		849D5FE21DF5C2BF00C5124B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 849D5FE11DF5C2BF00C5124B /* libsqlite3.0.tbd */; };
+		84BD92CE1E157486005B894B /* record_db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 84BD92CD1E157486005B894B /* record_db.sqlite */; };
+		84CBF0941E012B13003BF3A9 /* record_db.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF0931E012B12003BF3A9 /* record_db.m */; };
+		84CBF0991E014659003BF3A9 /* record_list_view_controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CBF0971E014659003BF3A9 /* record_list_view_controller.xib */; };
+		84CBF09B1E01492C003BF3A9 /* ui_memo_list_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CBF09A1E01492C003BF3A9 /* ui_memo_list_cell.xib */; };
+		84CBF09E1E015259003BF3A9 /* ui_memo_list_cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF09D1E015259003BF3A9 /* ui_memo_list_cell.m */; };
+		84CBF0A11E0155BA003BF3A9 /* record_list_view_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBF0A01E0155BA003BF3A9 /* record_list_view_controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8463060C1DF837EB004198E2 /* record_view_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = record_view_controller.h; sourceTree = "<group>"; };
+		8463060D1DF837EB004198E2 /* record_view_controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = record_view_controller.m; sourceTree = "<group>"; };
+		8463060E1DF837EB004198E2 /* record_view_controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = record_view_controller.xib; sourceTree = "<group>"; };
+		846F5F261DFFDA130017328F /* meter_gauge_view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = meter_gauge_view.h; sourceTree = "<group>"; };
+		846F5F271DFFDA130017328F /* meter_gauge_view.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = meter_gauge_view.m; sourceTree = "<group>"; };
+		848D1DD01E0ED04300904D76 /* audio_recorder_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_recorder_info.h; sourceTree = "<group>"; };
+		848D1DD11E0ED04300904D76 /* audio_recorder_info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audio_recorder_info.m; sourceTree = "<group>"; };
+		848D1DD21E0ED04300904D76 /* audio_recorder_info.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = audio_recorder_info.xib; sourceTree = "<group>"; };
+		848D1DD61E0ED7FD00904D76 /* gauge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gauge.png; path = resource/gauge.png; sourceTree = "<group>"; };
+		848D1DD71E0ED7FD00904D76 /* record_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record_off.png; path = resource/record_off.png; sourceTree = "<group>"; };
+		848D1DD81E0ED7FD00904D76 /* record_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record_on.png; path = resource/record_on.png; sourceTree = "<group>"; };
+		849D5FC21DF5C21A00C5124B /* audio_recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audio_recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849D5FC61DF5C21A00C5124B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849D5FC81DF5C21A00C5124B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849D5FC91DF5C21A00C5124B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849D5FCB1DF5C21A00C5124B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849D5FCC1DF5C21A00C5124B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		849D5FCF1DF5C21A00C5124B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849D5FD11DF5C21A00C5124B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849D5FD41DF5C21A00C5124B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849D5FD61DF5C21A00C5124B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849D5FDD1DF5C2A700C5124B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		849D5FDF1DF5C2B000C5124B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		849D5FE11DF5C2BF00C5124B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		84BD92CD1E157486005B894B /* record_db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = record_db.sqlite; sourceTree = "<group>"; };
+		84CBF0921E012B12003BF3A9 /* record_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = record_db.h; sourceTree = "<group>"; };
+		84CBF0931E012B12003BF3A9 /* record_db.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = record_db.m; sourceTree = "<group>"; };
+		84CBF0971E014659003BF3A9 /* record_list_view_controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = record_list_view_controller.xib; sourceTree = "<group>"; };
+		84CBF09A1E01492C003BF3A9 /* ui_memo_list_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ui_memo_list_cell.xib; sourceTree = "<group>"; };
+		84CBF09C1E015259003BF3A9 /* ui_memo_list_cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_memo_list_cell.h; sourceTree = "<group>"; };
+		84CBF09D1E015259003BF3A9 /* ui_memo_list_cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ui_memo_list_cell.m; sourceTree = "<group>"; };
+		84CBF09F1E0155BA003BF3A9 /* record_list_view_controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = record_list_view_controller.h; sourceTree = "<group>"; };
+		84CBF0A01E0155BA003BF3A9 /* record_list_view_controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = record_list_view_controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849D5FBF1DF5C21A00C5124B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D5FE21DF5C2BF00C5124B /* libsqlite3.0.tbd in Frameworks */,
+				849D5FE01DF5C2B000C5124B /* MessageUI.framework in Frameworks */,
+				849D5FDE1DF5C2A700C5124B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848D1DD51E0ED7DF00904D76 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				848D1DD61E0ED7FD00904D76 /* gauge.png */,
+				848D1DD71E0ED7FD00904D76 /* record_off.png */,
+				848D1DD81E0ED7FD00904D76 /* record_on.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		849D5FB91DF5C21A00C5124B = {
+			isa = PBXGroup;
+			children = (
+				848D1DD51E0ED7DF00904D76 /* resource */,
+				849D5FC41DF5C21A00C5124B /* audio_recorder */,
+				849D5FC31DF5C21A00C5124B /* Products */,
+				849D5FDC1DF5C2A700C5124B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		849D5FC31DF5C21A00C5124B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849D5FC21DF5C21A00C5124B /* audio_recorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849D5FC41DF5C21A00C5124B /* audio_recorder */ = {
+			isa = PBXGroup;
+			children = (
+				849D5FC81DF5C21A00C5124B /* AppDelegate.h */,
+				849D5FC91DF5C21A00C5124B /* AppDelegate.m */,
+				849D5FD11DF5C21A00C5124B /* Assets.xcassets */,
+				848D1DD01E0ED04300904D76 /* audio_recorder_info.h */,
+				848D1DD11E0ED04300904D76 /* audio_recorder_info.m */,
+				848D1DD21E0ED04300904D76 /* audio_recorder_info.xib */,
+				849D5FD61DF5C21A00C5124B /* Info.plist */,
+				849D5FD31DF5C21A00C5124B /* LaunchScreen.storyboard */,
+				849D5FCE1DF5C21A00C5124B /* Main.storyboard */,
+				846F5F261DFFDA130017328F /* meter_gauge_view.h */,
+				846F5F271DFFDA130017328F /* meter_gauge_view.m */,
+				84CBF0921E012B12003BF3A9 /* record_db.h */,
+				84CBF0931E012B12003BF3A9 /* record_db.m */,
+				84BD92CD1E157486005B894B /* record_db.sqlite */,
+				84CBF09F1E0155BA003BF3A9 /* record_list_view_controller.h */,
+				84CBF0A01E0155BA003BF3A9 /* record_list_view_controller.m */,
+				84CBF0971E014659003BF3A9 /* record_list_view_controller.xib */,
+				8463060C1DF837EB004198E2 /* record_view_controller.h */,
+				8463060D1DF837EB004198E2 /* record_view_controller.m */,
+				8463060E1DF837EB004198E2 /* record_view_controller.xib */,
+				849D5FC51DF5C21A00C5124B /* Supporting Files */,
+				84CBF09C1E015259003BF3A9 /* ui_memo_list_cell.h */,
+				84CBF09D1E015259003BF3A9 /* ui_memo_list_cell.m */,
+				84CBF09A1E01492C003BF3A9 /* ui_memo_list_cell.xib */,
+				849D5FCB1DF5C21A00C5124B /* ViewController.h */,
+				849D5FCC1DF5C21A00C5124B /* ViewController.m */,
+			);
+			path = audio_recorder;
+			sourceTree = "<group>";
+		};
+		849D5FC51DF5C21A00C5124B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849D5FC61DF5C21A00C5124B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849D5FDC1DF5C2A700C5124B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				849D5FE11DF5C2BF00C5124B /* libsqlite3.0.tbd */,
+				849D5FDF1DF5C2B000C5124B /* MessageUI.framework */,
+				849D5FDD1DF5C2A700C5124B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849D5FC11DF5C21A00C5124B /* audio_recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849D5FD91DF5C21A00C5124B /* Build configuration list for PBXNativeTarget "audio_recorder" */;
+			buildPhases = (
+				849D5FBE1DF5C21A00C5124B /* Sources */,
+				849D5FBF1DF5C21A00C5124B /* Frameworks */,
+				849D5FC01DF5C21A00C5124B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audio_recorder;
+			productName = audio_recorder;
+			productReference = 849D5FC21DF5C21A00C5124B /* audio_recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849D5FBA1DF5C21A00C5124B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "hyeonk lab";
+				TargetAttributes = {
+					849D5FC11DF5C21A00C5124B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 479J8B6466;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 849D5FBD1DF5C21A00C5124B /* Build configuration list for PBXProject "audio_recorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849D5FB91DF5C21A00C5124B;
+			productRefGroup = 849D5FC31DF5C21A00C5124B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849D5FC11DF5C21A00C5124B /* audio_recorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849D5FC01DF5C21A00C5124B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848D1DD41E0ED04300904D76 /* audio_recorder_info.xib in Resources */,
+				849D5FD51DF5C21A00C5124B /* LaunchScreen.storyboard in Resources */,
+				84BD92CE1E157486005B894B /* record_db.sqlite in Resources */,
+				849D5FD21DF5C21A00C5124B /* Assets.xcassets in Resources */,
+				849D5FD01DF5C21A00C5124B /* Main.storyboard in Resources */,
+				84CBF09B1E01492C003BF3A9 /* ui_memo_list_cell.xib in Resources */,
+				848D1DDB1E0ED7FD00904D76 /* record_on.png in Resources */,
+				848D1DD91E0ED7FD00904D76 /* gauge.png in Resources */,
+				848D1DDA1E0ED7FD00904D76 /* record_off.png in Resources */,
+				846306101DF837EB004198E2 /* record_view_controller.xib in Resources */,
+				84CBF0991E014659003BF3A9 /* record_list_view_controller.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849D5FBE1DF5C21A00C5124B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CBF0941E012B13003BF3A9 /* record_db.m in Sources */,
+				849D5FCD1DF5C21A00C5124B /* ViewController.m in Sources */,
+				849D5FCA1DF5C21A00C5124B /* AppDelegate.m in Sources */,
+				84CBF09E1E015259003BF3A9 /* ui_memo_list_cell.m in Sources */,
+				849D5FC71DF5C21A00C5124B /* main.m in Sources */,
+				848D1DD31E0ED04300904D76 /* audio_recorder_info.m in Sources */,
+				8463060F1DF837EB004198E2 /* record_view_controller.m in Sources */,
+				846F5F281DFFDA130017328F /* meter_gauge_view.m in Sources */,
+				84CBF0A11E0155BA003BF3A9 /* record_list_view_controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		849D5FCE1DF5C21A00C5124B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849D5FCF1DF5C21A00C5124B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849D5FD31DF5C21A00C5124B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849D5FD41DF5C21A00C5124B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849D5FD71DF5C21A00C5124B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		849D5FD81DF5C21A00C5124B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849D5FDA1DF5C21A00C5124B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 479J8B6466;
+				INFOPLIST_FILE = audio_recorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyeonk-lab.audio-recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849D5FDB1DF5C21A00C5124B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 479J8B6466;
+				INFOPLIST_FILE = audio_recorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyeonk-lab.audio-recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849D5FBD1DF5C21A00C5124B /* Build configuration list for PBXProject "audio_recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D5FD71DF5C21A00C5124B /* Debug */,
+				849D5FD81DF5C21A00C5124B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849D5FD91DF5C21A00C5124B /* Build configuration list for PBXNativeTarget "audio_recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849D5FDA1DF5C21A00C5124B /* Debug */,
+				849D5FDB1DF5C21A00C5124B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849D5FBA1DF5C21A00C5124B /* Project object */;
+}

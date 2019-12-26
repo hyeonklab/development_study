@@ -1,6 +1,0 @@
-        let inputText : NSString = NSString(string: self.tempText.text);
-        
-        var farenheit:Double = inputText.doubleValue;
-        var celisius : Double = (farenheit - 3) / 1.8;
-        
-        self.resultLabel.text = String(format:"%f", celisius);

@@ -29,13 +29,13 @@ for i in 0..<100
 
 ////////////
 
-let _name = "seunghyeon"
+let _name = "sh"
 let _age = 29
 let _int_age : Int = 33
 var _string_name : String = "shkim"
 
 var _birthyear : Int = 1983
-var _shin_name : String = "신부명"
+var _shin_name : String = "shin"
 
 
 

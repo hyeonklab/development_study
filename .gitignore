@@ -1,5 +1,5 @@
 .DS_Store
-*.playground
+*.playground/*
 /codeblocks/
 /fuse/
 /geany/
@@ -8,4 +8,4 @@
 /reference_files_book/
 /spring/
 /tomcat/
-xcode/MyPlayground.playground/
+xcode/MyPlayground.playground/*
